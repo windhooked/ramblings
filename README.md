@@ -16,10 +16,10 @@ However when using Golang for ultra performance mission critical systems a recur
 
 # Memory Safety What?
 
-So what is memory safety? Is a GC language memory safe? What is the drive to memory safe languages? Security vaulnerabilities and failure modes.. NSA objective 
-buffer overwrites possible with GC ? It sseem obvious, but analyse the security flaws and for each determine how the system was compromised. or failure mode.
+So what is memory safety? Is a GC language memory safe? What is the drive to memory safe languages? Security vaulnerabilities and failure modes. NSA objective 
+buffer overwrites possible with GC ? It seems obvious, analyse the security flaws and for each determine how the system was compromised. or failure mode.
 
-With my background in systems programming for tiny spaces it seemed natural to consider the hardware, like clock cycles, memory use and allocations and so on. Then came a time where mortals had no longer to concern themsels with such low level detail, until we had to go faster. Yet safe, and repeatable.
+experience in systems programming for tiny spaces it seemed natural to consider the hardware, like clock cycles, memory use and allocations and so on. Then came a time where mortals had no longer to concern themsels with such low level detail, until we had to go faster. Yet safe, and repeatable.
 
 https://tip.golang.org/doc/gc-guide
 
@@ -34,4 +34,4 @@ https://pyroscope.io/blog/go-1-20-memory-arenas/
 
 https://go.dev/wiki/Performance
 
-Memory safety can there be an extension to adress this?
+Memory safety can there be an extension to fix this? Does it need fixing, is go memory safe?
